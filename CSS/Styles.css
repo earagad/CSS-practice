@@ -1,0 +1,156 @@
+body {
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-weight: bolder;
+}
+
+p {
+  font-weight: bolder;
+  line-height: 2;
+}
+
+hr {
+  border: dotted #e8e8e8 10px;
+  border-bottom: 0;
+  width: 50px;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Merriweather', serif;
+  font-size: .75rem;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6
+}
+
+/************************* CLASSES ***************************/
+/*40 pixels in rem for the body*/
+.top-container {
+  background-color: #EAF6F6;
+  padding-top: 50px;
+  position: relative;
+}
+
+.profile-pic {
+  border-color: #3e5268;
+  border-radius: 50%;
+  border-width: 8px;
+  border: solid;
+}
+
+.profile {
+  margin: 100px auto 100px auto;
+  width: 30%;
+}
+
+.skills {
+  margin-top: 100px;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.skill-pic {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.wings-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 200%;
+}
+
+.wings-pic {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.bottom-cloud {
+  Position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  Position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.contact-me {
+  margin: 100px auto 100px auto;
+  width: 40%;
+}
+
+
+.btn {
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   color: #FFFFFF;
+   font-family: 'Merriweather', serif;
+   font-size: 16px;
+   font-weight: 500;
+   padding: 13px;
+   background-color: #66BFBF;
+   -webkit-box-shadow: 0 0 8px 0 #000000;
+   -moz-box-shadow: 0 0 8px 0 #000000;
+   box-shadow: 0 0 8px 0 #000000;
+   border: solid #337FED 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 50px;
+}
+
+.btn:hover {
+   background: #346666;
+   border: solid #66BFBF 0;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin-bottom: 0;
+  padding: 50px 0 20px 0;
+}
+
+.copywrite-text {
+  margin: 25px auto auto auto;
+  color: white;
+  font-size: .75rem;
+}
